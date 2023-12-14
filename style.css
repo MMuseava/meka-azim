@@ -3,15 +3,31 @@
     padding: 0;
     box-sizing: border-box;
 }
-#taskInput{
+#container{
     background-color:#C7BFE8 ;
     padding: 30px 40px;
     color: white;
     text-align: center;
 }
 
-#taskInput::after{
+#container::after{
     content: "";
     display: table;
     clear: both;
+}
+#taskInput{
+    width: 75%;
+    padding: 10px;
+    float: left;
+    font-size: 20px;
+}
+
+#addBtn{
+    padding: 10px;
+    width: 25px;
+    background-color: #E6637D;
+    color: #555;
+    float: left;
+    text-align: center;
+    
 }
