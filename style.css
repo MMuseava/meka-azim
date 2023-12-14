@@ -16,7 +16,7 @@
     clear: both;
 }
 #taskInput{
-    width: 75%;
+    width: 65%;
     padding: 10px;
     float: left;
     font-size: 20px;
@@ -24,10 +24,17 @@
 
 #addBtn{
     padding: 10px;
-    width: 25px;
+    width: 35px;
     background-color: #E6637D;
     color: #555;
     float: left;
     text-align: center;
-    
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+#addBtn:hover{
+    background-color: #bbb;
+
 }
