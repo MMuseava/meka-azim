@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#taskInput{
+    background-color:#C7BFE8 ;
+    padding: 30px 40px;
+    color: white;
+    text-align: center;
+}
+#taskInput::after{
+    content: "";
+    display: table;
+    clear: both;
+}
