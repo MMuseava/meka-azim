@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-image: url(https://media.graphassets.com/i4QBgLtR0yJ9WSm3IrFD);
+    height: 100vh;
+}
+
 #container{
     background-color:#C7BFE8 ;
     padding: 30px 40px;
